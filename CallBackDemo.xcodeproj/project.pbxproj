@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2973005C1BB5485D008F3A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2973005B1BB5485D008F3A7F /* main.m */; };
+		297300641BB5486A008F3A7F /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 297300631BB5486A008F3A7F /* Student.m */; settings = {ASSET_TAGS = (); }; };
+		297300671BB54A49008F3A7F /* Roomate.m in Sources */ = {isa = PBXBuildFile; fileRef = 297300661BB54A49008F3A7F /* Roomate.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		297300581BB5485D008F3A7F /* CallBackDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CallBackDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		2973005B1BB5485D008F3A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		297300621BB5486A008F3A7F /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		297300631BB5486A008F3A7F /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		297300651BB54A49008F3A7F /* Roomate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Roomate.h; sourceTree = "<group>"; };
+		297300661BB54A49008F3A7F /* Roomate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Roomate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		2973004F1BB5485D008F3A7F = {
 			isa = PBXGroup;
 			children = (
+				297300621BB5486A008F3A7F /* Student.h */,
+				297300631BB5486A008F3A7F /* Student.m */,
+				297300651BB54A49008F3A7F /* Roomate.h */,
+				297300661BB54A49008F3A7F /* Roomate.m */,
 				2973005A1BB5485D008F3A7F /* CallBackDemo */,
 				297300591BB5485D008F3A7F /* Products */,
 			);
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2973005C1BB5485D008F3A7F /* main.m in Sources */,
+				297300671BB54A49008F3A7F /* Roomate.m in Sources */,
+				297300641BB5486A008F3A7F /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
